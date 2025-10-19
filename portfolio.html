@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<style>
+    * {
+          font-family: 'Poppins', sans-serif;
+    }
+    /* logo */
+    .all-navbar {
+          display: flex;
+          align-items: center;
+        margin: 20px 100px;
+        gap: 15px;
+        justify-content: space-between;
+
+    }
+    .logo-div {
+         display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    #logoi {
+        height: 70px;
+        width: 70px;
+    }
+    #name {
+        margin-top: 30px;
+        display: flex;
+        font-size: xx-large;
+    }
+     .anchor a{
+        color: black;
+        font-size: large;
+        text-decoration: none;
+    
+    }
+    .anchor a:hover {
+        color: #9A30F9;
+    }
+    
+    #contact {
+        background-color: #9A30F9;
+        border-radius: 10px;
+        color: white;
+        font-size: large;
+       border: 15px solid  #9A30F9 ; 
+
+    }
+    #contact a:hover {
+       background-color: white;
+       color: #9A30F9;
+    }
+    /* main-div */
+        .main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+     }
+    /* 1div */
+     .div1 {
+        font-size: xx-large;
+     } 
+     #paragraph {
+        font-size: large;
+        font-family: 'Inter', 'Poppins', 'Helvetica Neue', sans-serif;
+         line-height: 1.8
+     } 
+ /* div2 */
+
+</style>
+<body>
+    <!-- logo -->
+     <div class="all-navbar">
+   <div class="logo-div" >
+       <img id="logoi"src="logo-BZuaoNYZ.png" alt="logo">
+        <h3 id="name">Brooklyn</h3>
+    </div>    
+   <!-- navbar  -->
+    <div class="navbar">
+        <div class="anchor">
+        <a href="portfolio.html">Home</a>
+        <a href="portfolio.html">About</a>
+        <a href="portfolio.html">Services</a>
+        <a href="portfolio.html">Experience</a>         
+        <a id="contact"href="portfolio.html">Contact</a>
+        </div>
+    </div>
+    </div>
+    <div class="main-div">
+        <div class="div1">
+            <h1>Hello, I'M<br> Brooklyn Gilbert</h1>
+            <p id="paragraph">I'm a Freelance UI/UX Designer and Developer based in London , <br> England. I strives to build immersive and beautiful web applications <br> through carefully crafted code and user-centric design.</p>
+            <a href=""> <button id="contact">Say hello</button></a>
+        </div>
+        <div class="div2">
+            <img  id="image" src="man.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
